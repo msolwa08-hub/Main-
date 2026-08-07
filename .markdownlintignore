@@ -1,0 +1,34 @@
+# Vendored third-party reference content, installed verbatim from upstream
+# sources rather than authored here. These carry per-component catalogue
+# structure (multiple H1-per-section, source URLs as plain text) that is
+# correct in its own source repo's convention and not ours to rewrite —
+# doing so would risk distorting research content for a house-style rule.
+# Every author-facing SKILL.md in these skills remains fully linted.
+
+# 74 design-system teardowns from VoltAgent/awesome-design-md — per-brand
+# README.md/DESIGN.md pairs, each carrying a bare source URL by convention.
+skills/design-references/references/**
+
+# Radix→Base UI component-mapping catalogues from shadcn-ui/ui's
+# migrate-radix-to-base skill — one H1 per component entry within a single
+# reference file, by design (it's a lookup table, not prose).
+skills/migrate-radix-to-base/disclosure.md
+skills/migrate-radix-to-base/display-misc.md
+skills/migrate-radix-to-base/form-controls.md
+skills/migrate-radix-to-base/menus.md
+skills/migrate-radix-to-base/overlays.md
+
+# Vendored SKILL.md files (from Leonxlnx/taste-skill and
+# nextlevelbuilder/ui-ux-pro-max-skill) authored with one H1 per major
+# section rather than a single document title — a deliberate structural
+# choice in the upstream source, not an error. Demoting every section to H2
+# would mean guessing at a heading hierarchy the original author didn't
+# intend, for content that isn't ours to restructure.
+skills/brandkit/SKILL.md
+skills/imagegen-frontend-web/SKILL.md
+skills/taste-skill/SKILL.md
+
+# Generator template, not a finished document — {{PLACEHOLDER}} tokens are
+# filled by ui-ux-pro-max's own CLI to produce a real SKILL.md. Its
+# "Prerequisites" H1 is deliberate scaffolding, not a structure error.
+skills/ui-ux-pro-max/templates/base/skill-content.md

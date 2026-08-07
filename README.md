@@ -116,12 +116,12 @@ Instead of rebuilding that process in every prompt, you install it once and make
 
 ECC is MIT-licensed open source. It works best with Claude Code today, has a supported Codex sync path, and provides capability-limited adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen, and other harnesses. See the [support status matrix](#platform-support) before assuming feature parity.
 
-Access to 67 agents, 281 skills, and 94 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
+Access to 67 agents, 302 skills, and 94 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
 
 | Included         |       Count | What it gives you                                                                    |
 | ---------------- | ----------: | ------------------------------------------------------------------------------------ |
 | Agents           |   67 agents | Planning, review, build repair, security, architecture, and domain work              |
-| Skills           |  281 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
+| Skills           |  302 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
 | Commands         | 94 commands | Convenient entry points while ECC moves to a skills-first surface                    |
 | Hooks and memory |     Runtime | Enforcement, session summaries, continuous learning, instincts, and context controls |
 | Rules            |   Selective | Always-loaded standards you choose by language or project                            |
@@ -912,7 +912,7 @@ This repo is the raw code. The guides explain everything.
 ```text
 ECC/
 |-- agents/           # 67 specialized subagents for delegation
-|-- skills/           # 281 reusable workflows loaded on demand
+|-- skills/           # 302 reusable workflows loaded on demand
 |-- commands/         # 94 maintained slash-command shims
 |-- rules/            # opt-in common and language standards
 |-- hooks/            # runtime automation and enforcement
@@ -1711,7 +1711,7 @@ GitHub Copilot does not have a hook system or a subagent API, so ECC's hook auto
 <details>
 <summary><strong>What changed in v2.0.0</strong></summary>
 
-ECC v2.0.0 stabilizes the 2.0 line with the public Hermes operator story, 281 skills, 67 agents, 94 command shims, session adapters, MCP inventory, worktree lifecycle services, orchestrator workflows, and the ECC Discord community.
+ECC v2.0.0 stabilizes the 2.0 line with the public Hermes operator story, 300 skills, 67 agents, 94 command shims, session adapters, MCP inventory, worktree lifecycle services, orchestrator workflows, and the ECC Discord community.
 
 - [v2.0.0 release notes](docs/releases/2.0.0/release-notes.md)
 - [ECC 2.0 reference architecture](docs/ECC-2.0-REFERENCE-ARCHITECTURE.md)
